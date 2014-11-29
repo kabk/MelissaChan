@@ -1,14 +1,33 @@
 body {
     background-color: white;
     color: black;
-    font-size: 18px;
-    /*padding: 8px 16px 8px 12px;*/
-    font-family: 'Cousine' ;
     }
 
 header {
-    padding: 0 0 0 5%;
-    font-size: 22px;
+    margin: 200px 0px 100px 0px;
+    font: 700 100px/2 'Chivo', Helvetica, sans-serif;
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.subTitle {
+    margin: 100px 0px 200px 0px;
+    font: 700 60px/2 'Archivo Narrow', Helvetica, sans-serif;
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.int, .c1, .c2, .c3, .c4, .c5, .con, .abs, .src {
+    font: 400 60px/1 'Chivo', Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top: 8px solid #000000;
 }
 
 #toTop {
@@ -46,11 +65,6 @@ background-color: black;
 color: white;
 }
 
-p {
-    margin-top: 20px; 
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
 /* This makes the images scale to the full width of the page */
 img {
@@ -58,40 +72,6 @@ img {
     height: auto;
 }
 
-ul, ol {
-    margin-top: 20px;
-    padding-left: 20px;
-}
-
-li {
-    list-style: none;
-    margin-bottom: 4px;
-}
-
-
-nav {
-    display: inline-block;
-    vertical-align: top;
-    top: 40%;
-    padding-left: 4%;
-    width: 26%;
-    /*background: blue;*/
-    color: black;
-    font-size: 20px;
-    line-height: 28px;
-}
-
-article {
-    display: inline-block;
-    top: 40%;
-    left: 50%;
-    width: 50%;
-    color: black;
-    font-size: 18px;
-    line-height: 25px;
-    padding-bottom: 50px;
-    /*background: red;*/
-}
 
 div.image {
     width: 70%;

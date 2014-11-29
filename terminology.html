@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Beyond distributed and decentralized: what is a federated network? / Terminology</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="http://fonts.googleapis.com/css?family=Cousine:400,700,700italic,400italic" rel="stylesheet" type="text/css"> 
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.textHighlighter.pack.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#sandbox').textHighlighter();
+            $('#sandbox').getHighlighter();
+           
+             $('#color-picker div.color').click(function() {
+              var color = $(this).css('background-color');
+              $('#sandbox').getHighlighter().setColor(color);
+          });
+            });
+
+        </script>
+           <style>
+            body { 
+                font-family: 'Cousine', serif;
+            }
+            </style>
+        <link rel="stylesheet" type="text/css" href="css/styleindex.css"/>
+    </head>
+    <body>
+        <header>
+             <h1><span name="top">Beyond distributed and decentralized:</br> what is a federated network?</span></h1>
+        </header>
+            <nav>
+            <ul>
+                <li><a href="index.html">Introduction</a></li>
+                <li><a href="paulbaran.html">Paul Baran</a></li>
+                <li><b><a href="terminology.html">Terminology</a></b></li>
+                <li><a href="federation.html">Federation</a></li>
+                <li><a href="thesocialweb.html">The Social Web</a></li>               
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+              <div class="info-box">
+      <ul>
+        <div id="color-picker">
+            <div class="color" style="background-color: #FF6666"></div>
+            <div class="color" style="background-color: #66FF66"></div>
+            <div class="color" style="background-color: #6666FF"></div>
+          </div>
+       </ul>
+    </div>
+            </nav>
+            <article id="sandbox">
+                <p>Network: A collection of interlinked nodes that exchange information.<br>
+                Node: The most basic part of the network; for example, a user or computer.<br>
+                Link: The connection between two nodes.<br>
+                Server: A node that has connections to a relatively large amount of other nodes
+                </p>
+                <p>The “traditional” network architecture is the centralized network, where all nodes send their data to one central node (a server), which then sends the data to the intended recipient. Then there’s the distributed network, where there’s no central server and each node is connected to various other nodes; data simply “hops” through whichever nodes allow for the shortest route to the recipient. Finally there’s the decentralized network, which could be characterized as a distributed network of centralized networks. When “zoomed out”, a decentralized network resembles a distributed network, but zooming in on the nodes of this distributed network reveals that the nodes in this network are in fact centralized networks, with the central node of each network connected to several other such central nodes. This way, the network does not rely on one single server, but splits the risk by having several such central nodes each manage a limited amount of “end point” nodes.</p>
+                <div class="image"><img src="images/networktypes.png" border="0"></div>
+                <br>
+                <div class="caption">Illustration from “On Distributed Communication Networks”, showing three types of networks according to Baran.</div>
+            </article>
+            
+
+            <back id="toTop">
+                <li><a href="#top">top &#x2191;</a></li> 
+            </back>
+
+            
+    </body>
+</html>

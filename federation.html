@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Beyond distributed and decentralized: what is a federated network? / Federation</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="http://fonts.googleapis.com/css?family=Cousine:400,700,700italic,400italic" rel="stylesheet" type="text/css">
+         <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.textHighlighter.pack.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#sandbox').textHighlighter();
+            $('#sandbox').getHighlighter();
+           
+             $('#color-picker div.color').click(function() {
+              var color = $(this).css('background-color');
+              $('#sandbox').getHighlighter().setColor(color);
+          });
+            });
+
+        </script>
+           <style>
+            body { 
+                font-family: 'Cousine', serif;
+            }
+            </style>
+        <link rel="stylesheet" type="text/css" href="css/styleindex.css"/>
+    </head>
+    <body>
+        <header>
+            <h1><span name="top">Beyond distributed and decentralized:</br> what is a federated network?</span></h1>
+        </header>
+            <nav>
+            <ul>
+                <li><a href="index.html">Introduction</a></li>
+                <li><a href="paulbaran.html">Paul Baran</a></li>
+                <li><a href="terminology.html">Terminology</a></li>
+                <li><b><a href="federation.html">Federation</a></b></li>
+                <li><a href="thesocialweb.html">The Social Web</a></li>               
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+            <div class="info-box">
+      <ul>
+        <div id="color-picker">
+            <div class="color" style="background-color: #FF6666"></div>
+            <div class="color" style="background-color: #66FF66"></div>
+            <div class="color" style="background-color: #6666FF"></div>
+          </div>
+       </ul>
+    </div>
+            </nav>
+            <article id="sandbox">
+                <p>In politics, a federation is a union of states (or other entities) that are partially self-governing and independent but have transferred a set of responsibilities and duties to a central government that unites them.</p>
+                <p>This is comprehensible enough, but what’s a federated network, then? Alternative social networks such as Diaspora and Lorea have been described as adopting a federated structure, but their server architecture is often strongly remeniscent of Baran’s description of a decentralized system. In Diaspora, for example, users become a member of a “pod”, and in principle only connect directly with their own pod; these pods in turn are connected to each other to allow users in different pods to interact with each other. This matches the “distributed network of centralized networks” description given above quite well.</p>
+                <p>Is federation just a synonym for decentralization, then? It depends on who you ask. For example, Arvind Narayanan et al., who wrote a comprehensive analysis of the strengths and weaknesses of different network architectures in A Critical Look at Decentralized Personal Data Architectures, would disagree. They distinguish both federated and distributed networks – but mention that these are, in turn, two kinds of decentralized networks: here, “decentralized” is an umbrella term, unlike in Baran’s original text where decentralized networks were clearly distinct from distributed networks. It is clear from Narayanan et al.’s text, however, that their conception of a federated network matches Baran’s description of a decentralized network.</p>
+                <p>A completely different definition is used by Elijah Sparrow, involved with the Crabgrass alternative social network, in his response to Narayanan et al’s paper. Sparrow uses “decentralized” to refer to peer-to-peer networks, which is what both Narayanan et al and Baran would call “distributed”, meanwhile reserving the label “federated” for “client-to-server-to-server-to-client architectures”, which seems to be another way of describing Baran’s decentralized networks.</p>
+                <p>Lonneke van der Velden, in her 2013 text Meeting the Alternatives, offers yetanother conceptualization of the relation between decentralization and federation. Writing about the alternative social networks Diaspora and Lorea, she notes that “[decentralization] means that data is not stored on the servers owned by one central actor, but on federated servers”. In this instance, decentralization and federation do seem to be more or less two ways of saying the same thing, where “federation” is a mode of server organization that makes the network of these servers decentralized.</p>
+            </article>
+
+
+            <back id="toTop">
+                <li><a href="#top">top &#x2191;</a></li> 
+            </back>
+
+            
+    </body>
+</html>

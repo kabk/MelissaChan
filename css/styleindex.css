@@ -1,0 +1,194 @@
+body {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    /*padding: 8px 16px 8px 12px;*/
+    font-family: 'Cousine' ;
+    }
+
+header {
+    padding: 0 0 0 5%;
+    font-size: 22px;
+}
+
+#toTop {
+    z-index: 100px;
+    position: fixed;
+    display: block;
+    right: 10%;
+    bottom: 10%;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;  
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;  
+}
+
+a:hover { 
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    color: black; 
+} 
+
+a:active { 
+    text-decoration: none;
+    border-bottom: 0;
+    color: black; 
+}
+
+::selection {
+background-color: black;
+color: white;
+}
+
+p {
+    margin-top: 20px; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* This makes the images scale to the full width of the page */
+img {
+    width: 100%;
+    height: auto;
+}
+
+ul, ol {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 4px;
+}
+
+
+nav {
+    display: inline-block;
+    vertical-align: top;
+    top: 40%;
+    padding-left: 4%;
+    width: 26%;
+    /*background: blue;*/
+    color: black;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+article {
+    display: inline-block;
+    top: 40%;
+    left: 50%;
+    width: 50%;
+    color: black;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 50px;
+    /*background: red;*/
+}
+
+div.image {
+    width: 70%;
+    height: auto;
+    padding-left: 20%;
+}
+
+div.caption {
+    font-size: 10px;
+    left: 5%;
+}
+
+@media screen and (max-width: 36em) {
+    
+    header {
+    left:4%;
+    font-size: 14px;
+
+}
+
+   nav {
+    position: absolute;
+    top: 180px;
+    left: 4%;
+    width: 50%;
+    
+} 
+
+    article {
+    position: absolute;
+    top: 410px;
+    left: 4%;
+    width: 93%;
+}
+
+    div.caption {
+    position: relative;
+    font-size: 10px;
+    line-height: 14px;
+    width: 70%;
+    height: auto;
+    
+}
+
+}
+
+@media print {
+    
+    header {
+        font-size: 10px;
+    }
+    nav {
+        font-size:10px;
+        line-height: 14px;
+
+    }
+    article {
+        font-size:10px;
+        line-height: 14px;
+        left: 4%;
+    }
+    
+    .info-box {
+            display: none;
+    }
+
+    #top {
+            display:none;
+    }
+}
+
+
+@media screen {
+
+    .info-box {
+        margin: 30px auto;
+        font-size: 12px;
+          
+      }
+
+    .info-box #color-picker {
+        border: none;
+        display: inline;
+      }
+
+    .info-box #color-picker div {
+        border: 1px solid #000;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 2px;
+      }
+
+    .info-box ul li {
+        margin-top: 8px;
+    }
+}
+
+  

@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #e1e1e1;
     color: black;
     }
 
@@ -11,7 +11,7 @@ header {
     display: inline-block;
     width: 100%;
     text-align: center;
-    -webkit-text-fill-color: white;
+    -webkit-text-fill-color: #e1e1e1;
     -webkit-text-stroke: 2px black;
 
 }
@@ -34,7 +34,7 @@ header {
     border-top: 8px solid #000000;
 }
 
-#toTop {
+#backToTop {
     z-index: 100px;
     position: fixed;
     display: block;
@@ -90,89 +90,41 @@ div.caption {
 
 @media screen and (max-width: 36em) {
     
-    header {
-    left:4%;
-    font-size: 14px;
+header {
+    margin: 200px 0px 100px 0px;
+    font: 400 100px/1.5 'Chivo', Helvetica, sans-serif;
+    letter-spacing: 10px;
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    -webkit-text-fill-color: #e1e1e1;
+    -webkit-text-stroke: 2px black;
 
 }
 
-   nav {
-    position: absolute;
-    top: 180px;
-    left: 4%;
-    width: 50%;
-    
-} 
-
-    article {
-    position: absolute;
-    top: 410px;
-    left: 4%;
-    width: 93%;
+.subTitle {
+    margin: 100px 0px 200px 0px;
+    font: 700 40px/1.5 'Archivo Narrow', Helvetica, sans-serif;
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 
-    div.caption {
-    position: relative;
-    font-size: 10px;
-    line-height: 14px;
-    width: 70%;
-    height: auto;
-    
-}
+.int, .c1, .c2, .c3, .c4, .c5, .con, .abs, .src {
+    font: 400 40px/1.5 'Chivo', Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top: 8px solid #000000;
 
 }
 
 @media print {
-    
-    header {
-        font-size: 10px;
-    }
-    nav {
-        font-size:10px;
-        line-height: 14px;
 
-    }
-    article {
-        font-size:10px;
-        line-height: 14px;
-        left: 4%;
-    }
-    
-    .info-box {
-            display: none;
-    }
-
-    #top {
+    #backToTop {
             display:none;
     }
 }
-
-
-@media screen {
-
-    .info-box {
-        margin: 30px auto;
-        font-size: 12px;
-          
-      }
-
-    .info-box #color-picker {
-        border: none;
-        display: inline;
-      }
-
-    .info-box #color-picker div {
-        border: 1px solid #000;
-        width: 20px;
-        height: 20px;
-        display: inline-block;
-        cursor: pointer;
-        border-radius: 2px;
-      }
-
-    .info-box ul li {
-        margin-top: 8px;
-    }
-}
-
-  

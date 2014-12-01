@@ -5,28 +5,72 @@ body {
 
 header {
     margin: 200px 0px 100px 0px;
-    font: 400 120px/2 'Chivo', Helvetica, sans-serif;
+    font: 400 6em/1.5 'Chivo', Helvetica, sans-serif;
     letter-spacing: 10px;
     text-align: justify;
     display: inline-block;
     width: 100%;
     text-align: center;
-    -webkit-text-fill-color: #e1e1e1;
-    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #ffff00;
 
 }
 
 .subTitle {
     margin: 100px 0px 200px 0px;
-    font: 700 60px/2 'Archivo Narrow', Helvetica, sans-serif;
+    font: 700 2em/2 'Archivo Narrow', Helvetica, sans-serif;
     text-align: justify;
     display: inline-block;
     width: 100%;
     text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #0000ff;
+}
+
+.topNavMid {
+    font: 400 1em/1 'Chivo', Helvetica, sans-serif;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #0000ff;
+}
+
+.sideNav {
+    font: 400 0.8em/1.3 'Chivo', Helvetica, sans-serif;
+    color: #0000ff;
+    margin: 80px 10px 0px 10px;
+    text-align: center;
+}
+
+em {
+    border-bottom: 4px dashed #0000ff;
+}
+
+sup {
+    font: 400 10px 'Chivo', Helvetica, sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #0000ff;
+}
+
+.citeName {
+    font: 400 1em/1.3 'Archivo Narrow', Helvetica, sans-serif;
+}
+
+.citeNum {
+    font: 400 10px 'Chivo', Helvetica, sans-serif;
+}
+
+p.subTitleText {
+    text-align: center;
+    font: 700 1em/1.3 'Chivo', Helvetica, sans-serif;
+    color: white;
 }
 
 .int, .c1, .c2, .c3, .c4, .c5, .con, .abs, .src {
-    font: 400 60px/1 'Chivo', Helvetica, sans-serif;
+    font: 400 2em/1.5 'Chivo', Helvetica, sans-serif;
     width: 100%;
     text-align: center;
     padding-top: 80px;
@@ -34,34 +78,64 @@ header {
     border-top: 8px solid #000000;
 }
 
+.intP, .c1P, .c2P, .c3P, .c4P, .c5P, .conP, .absP, .srcP {
+    font: 400 2em/1.5 'Chivo', Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top: 8px solid #000000;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.text {
+    font: 400 1.2em/1.3 'Chivo', Helvetica, sans-serif;
+    color: #0000ff;
+    width: 48%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+.indent {
+      text-indent: 50px;
+}
+
+blockquote {
+    display: block;
+    font: 400 1em/1.3 'Archivo Narrow', Helvetica, sans-serif;
+    margin-left: 120px;
+    margin-right: 80px;
+}
+
 #backToTop {
     z-index: 100px;
     position: fixed;
     display: block;
-    right: 10%;
-    bottom: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+    right: 50%;
 }
 
 a:link {
     text-decoration: none;
-    color: black;  
+    color: #ffff00;  
 }
 
 a:visited {
     text-decoration: none;
-    color: black;  
+    color: #ffff00;   
 }
 
 a:hover { 
     text-decoration: none;
-    border-bottom: 2px solid black;
-    color: black; 
+    color: white; 
 } 
 
 a:active { 
     text-decoration: none;
-    border-bottom: 0;
-    color: black; 
+    color: #ffff00;  
 }
 
 ::selection {
@@ -69,13 +143,11 @@ background-color: black;
 color: white;
 }
 
-
 /* This makes the images scale to the full width of the page */
 img {
     width: 100%;
     height: auto;
 }
-
 
 div.image {
     width: 70%;
@@ -92,20 +164,20 @@ div.caption {
     
 header {
     margin: 200px 0px 100px 0px;
-    font: 400 100px/1.5 'Chivo', Helvetica, sans-serif;
+    font: 400 4.5em/1.5 'Chivo', Helvetica, sans-serif;
     letter-spacing: 10px;
     text-align: justify;
     display: inline-block;
     width: 100%;
     text-align: center;
-    -webkit-text-fill-color: #e1e1e1;
+    -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 2px black;
 
 }
 
 .subTitle {
     margin: 100px 0px 200px 0px;
-    font: 700 40px/1.5 'Archivo Narrow', Helvetica, sans-serif;
+    font: 700 2em/1.2 'Archivo Narrow', Helvetica, sans-serif;
     text-align: justify;
     display: inline-block;
     width: 100%;
@@ -113,7 +185,7 @@ header {
 }
 
 .int, .c1, .c2, .c3, .c4, .c5, .con, .abs, .src {
-    font: 400 40px/1.5 'Chivo', Helvetica, sans-serif;
+    font: 400 2em/1.2 'Chivo', Helvetica, sans-serif;
     width: 100%;
     text-align: center;
     padding-top: 80px;

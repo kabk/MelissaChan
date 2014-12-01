@@ -35,7 +35,7 @@ header {
     margin-right: auto;
     text-align: center;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #ff0000;
+    -webkit-text-stroke: 1px #ffff00;
 }
 
 .sideNav {

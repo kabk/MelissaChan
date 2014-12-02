@@ -1,0 +1,137 @@
+
+body {
+	background-color: #e1e1e1;
+}
+
+
+/*  H E A D E R  */
+
+header {
+    margin: 100px 0px 50px 0px;
+    font: 400 5em/1.5 'Chivo', Helvetica, sans-serif;
+    letter-spacing: 10px;
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #000;
+
+}
+
+em {
+    border-bottom: 4px dashed #000;
+}
+
+sup {
+    font: 400 10px 'Chivo', Helvetica, sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+.subTitle {
+    margin: 50px 0px 100px 0px;
+    font: 700 1em/2 'Archivo Narrow', Helvetica, sans-serif;
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+
+/*  S C R O L L C U E  */
+
+#container {
+	position: fixed;
+	left: 10px;
+	right: 10px;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	border-width: 20px 0;
+	border-style: solid;
+	border-color: transparent;
+	transition: color .75s;
+	-webkit-transition: color .75s;
+}
+
+.section {
+	margin: 1em 0;
+}
+
+.cursor {
+	color: #fff;
+	border-color: #fff;
+}
+
+.yokohama .cursor {
+	color: #FA558A;
+	border-color: #FA558A;
+}
+
+.wrong {
+	background-color: #444;
+}
+
+.wrong .cursor {
+	color: #F5D77A;
+	border-color: #F5D77A;
+	background-color: #222;
+}
+
+.emphasis {
+	color: #855;
+}
+
+.emphasis.cursor {
+	color: #d33;
+	border-color: #d33;
+}
+
+.title {
+	text-align: right;
+}
+
+.meta {
+    font: 400 2em/1.5 'Chivo', Helvetica, sans-serif;
+    color: #000;
+    text-align: center;
+	margin: 3em 0;
+}
+
+.meta p {
+	border-width: 10px 0;
+}
+
+.meta .cursor {
+	color: #fff;
+	border-color: #fff;
+}
+
+.funky .cursor {
+	-webkit-animation: funkycolors 2s linear 0s infinite alternate;
+	animation: funkycolors 2s linear 0s infinite alternate;
+
+}
+
+@-webkit-keyframes funkycolors {
+	0% { color: #36E6F5; border-color: #36E6F5;}
+	25% { color: #444; border-color: #444;}
+	50% { color: #FA558A; border-color: #FA558A;}
+	75% { color: #444; border-color: #444;}
+	100% { color: #A0D335; border-color: #A0D335; }
+}
+
+@-moz-keyframes funkycolors {
+	0% { color: #36E6F5; border-color: #36E6F5;}
+	25% { color: #444; border-color: #444;}
+	50% { color: #FA558A; border-color: #FA558A;}
+	75% { color: #444; border-color: #444;}
+	100% { color: #A0D335; border-color: #A0D335; }
+}
+
+

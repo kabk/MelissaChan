@@ -44,7 +44,6 @@ sup {
 /*  S C R O L L C U E  */
 
 #container {
-	position: fixed;
 	left: 10px;
 	right: 10px;
 }

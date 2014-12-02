@@ -67,6 +67,15 @@ sup {
 
 /*  M A I N  T I T L E S  */
 
+.secChapters {
+    font: 400 2em/1.5 'Chivo', Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-top: 8px solid #000000;
+}
+
 .int, .c1, .c2, .c3, .c4, .c5, .con, .abs, .src {
     font: 400 2em/1.5 'Chivo', Helvetica, sans-serif;
     width: 100%;

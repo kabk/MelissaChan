@@ -21,7 +21,7 @@ html, body {
 /*  H E A D E R  */
 
 header {
-    font: 400 6em/1.2 'Chivo', Helvetica, sans-serif;
+    font: 400 6em/1.2 'Chivo', Helvetica, Arial, sans-serif;
     letter-spacing: 10px;
     width: 75%;
     text-align: center;
@@ -44,7 +44,7 @@ em {
 }
 
 sup {
-    font: 400 10px 'Chivo', Helvetica, sans-serif;
+    font: 400 10px 'Chivo', Helvetica, Arial, sans-serif;
     -webkit-text-fill-color: #000000;
     -webkit-text-stroke: 0px;
 }
@@ -61,12 +61,12 @@ sup {
 }
 
 .subTitleSolid {
-    font: 400 4em/1.2 'Chivo', Helvetica, sans-serif;
+    font: 400 4em/1.2 'Chivo', Helvetica, Arial, sans-serif;
     color: #ffffff;
 }
 
 .subTitleOutline {
-    font: 400 4em/1.2 'Chivo', Helvetica, sans-serif;
+    font: 400 4em/1.2 'Chivo', Helvetica, Arial, sans-serif;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1.5px #ffffff;
 }
@@ -75,7 +75,7 @@ sup {
 /*  C H A P T E R   T I T L E S  */
 
 .cont, .int, .c1, .c2, .c3, .c4, .c5, .con, .src, .col {
-    font: 400 4em/1.2 'Chivo', Helvetica, sans-serif;
+    font: 400 4em/1.2 'Chivo', Helvetica, Arial, sans-serif;
     width: 40%;
     text-align: center;
     margin-left: auto;
@@ -87,7 +87,7 @@ sup {
 }
 
 .abs {
-    font: 400 4em/1.2 'Chivo', Helvetica, sans-serif;
+    font: 400 4em/1.2 'Chivo', Helvetica, Arial, sans-serif;
     width: 40%;
     text-align: center;
     margin-left: auto;
@@ -101,7 +101,7 @@ sup {
 /*  T E X T  */
 
 p.subTitleText {
-    font: 400 1em/1.3 'Archivo Narrow', Helvetica, sans-serif;
+    font: 400 1em/1.3 'Archivo Narrow', Helvetica, Arial, sans-serif;
     color: #000000;
     letter-spacing: 1px;
     text-align: center;
@@ -110,7 +110,7 @@ p.subTitleText {
 }
 
 .text {
-    font: 400 1.2em/1.3 'Chivo', Helvetica, sans-serif;
+    font: 400 1.2em/1.3 'Chivo', Helvetica, Arial, sans-serif;
     color: #000000;
     width: 40%;
     margin-left: auto;
@@ -127,24 +127,28 @@ p.subTitleText {
 }
 
 .citeName {
-    font: 400 1em/1.3 'Archivo Narrow', Helvetica, sans-serif;
+    font: 400 1em/1.3 'Archivo Narrow', Helvetica, Arial, sans-serif;
     color: #000000;
 }
 
 .citeNum {
-    font: 400 0.7em/0.9 'Chivo', Helvetica, sans-serif;
+    font: 400 0.7em/0.9 'Chivo', Helvetica, Arial, sans-serif;
     color: #aaaaaa;
 }
 
-.citeNumW {
-    font: 400 0.7em/0.9 'Chivo', Helvetica, sans-serif;
+.citeNumF {
+    font: 400 1em/1.3 'Chivo', Helvetica, Arial, sans-serif;
     color: #aaaaaa;
+}
+
+.wordCount {
+    font: 400 0.7em/0.9 'Chivo', Helvetica, Arial, sans-serif;
+    color: #ffffff;
 }
 
 blockquote {
     display: block;
-    font: 400 1em/1.3 'Archivo Narrow', Helvetica, sans-serif;
-    color: #000000;
+    font: 400 1em/1.3 'Archivo Narrow', Helvetica, Arial, sans-serif;
     margin-left: 12%;
     margin-right: 8%;
 }
@@ -154,19 +158,20 @@ blockquote {
 
 footer {
     border-top: 3px solid #000000;
-    background: #ffffff;
+    background: #000000;
 }
 
 .citeImg {
-    font: 400 0.8em/1 'Times New Roman', Helvetica, sans-serif;
+    font: 400 0.8em/1 'Times New Roman', Helvetica, Arial, sans-serif;
     width: 100%;
     text-align: center;
     padding: 2%;
 }
 
 .cite {
-    font: 400 0.8em/1.2 'Times New Roman', Helvetica, sans-serif;
+    font: 400 0.8em/1.2 'Times New Roman', Helvetica, Arial, sans-serif;
     width: 40%;
+    color: #ffffff;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
@@ -414,7 +419,7 @@ div.image {
     top: -2px;
     color: #fff;
     font-size: 14px;
-    font-family: arial, helvetica, sans-serif;
+    font-family: arial, Helvetica, Arial, sans-serif;
     white-space: nowrap;
     max-width: 220px;
     overflow: hidden;

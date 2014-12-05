@@ -4,18 +4,17 @@ body {
 }
 
 
+
 /*  H E A D E R  */
 
 header {
     margin: 200px 0px 100px 0px;
     font: 400 6em/1.5 'Chivo', Helvetica, sans-serif;
-    letter-spacing: 10px;
-    text-align: justify;
-    display: inline-block;
+    letter-spacing: 2em;
     width: 100%;
     text-align: center;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 3px #ffff00;
+    -webkit-text-stroke: 1px #ffff00;
 
 }
 
@@ -183,7 +182,7 @@ img {
 }
 
 div.image {
-    width: 70%;
+    width: 80%;
     height: auto;
     padding-left: 20%;
 }

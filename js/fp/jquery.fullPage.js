@@ -23,9 +23,9 @@
 
 			//scrolling
 			'css3': true,
-			'scrollingSpeed': 700,
+			'scrollingSpeed': 500,
 			'autoScrolling': true,
-			'easing': 'easeInQuart',
+			'easing': 'easeInOutCirc',
 			'easingcss3': 'ease',
 			'loopBottom': false,
 			'loopTop': false,

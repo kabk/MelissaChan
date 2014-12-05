@@ -132,12 +132,12 @@ p.subTitleText {
 }
 
 .citeNum {
-    font: 400 12px 'Chivo', Helvetica, sans-serif;
+    font: 400 0.7em/0.9 'Chivo', Helvetica, sans-serif;
     color: #aaaaaa;
 }
 
 .citeNumW {
-    font: 400 12px 'Chivo', Helvetica, sans-serif;
+    font: 400 0.7em/0.9 'Chivo', Helvetica, sans-serif;
     color: #aaaaaa;
 }
 
@@ -150,7 +150,12 @@ blockquote {
 }
 
 
-/*  C I T A T I O N S  */
+/*  F O O T N O T E S  */
+
+footer {
+    border-top: 3px solid #000000;
+    background: #ffffff;
+}
 
 .citeImg {
     font: 400 0.8em/1 'Times New Roman', Helvetica, sans-serif;
@@ -160,12 +165,13 @@ blockquote {
 }
 
 .cite {
-    font: 400 0.8em/1 'Times New Roman', Helvetica, sans-serif;
-    width: 100%;
+    font: 400 0.8em/1.2 'Times New Roman', Helvetica, sans-serif;
+    width: 40%;
     text-align: left;
-    padding: 4% 4% 7% 4%;
-    background: #ffffff;
-    border-top: 2px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 4% 7% 4%;
+    word-wrap: break-word;
 }
 
 
@@ -250,6 +256,7 @@ div.image {
     -webkit-box-sizing: border-box; /* Safari<=5 Android<=3 */
     -moz-box-sizing: border-box; /* <=28 */
     box-sizing: border-box;
+    border-top: 2px solid #000000;
 }
 
 .fp-slide {

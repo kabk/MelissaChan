@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'franklin_gothic_fsdemi';
+    src: url('../font/FranklinGothic-Demi-webfont.eot');
+    src: url('../font/FranklinGothic-Demi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/FranklinGothic-Demi-webfont.woff2') format('woff2'),
+         url('../font/FranklinGothic-Demi-webfont.woff') format('woff'),
+         url('../font/FranklinGothic-Demi-webfont.ttf') format('truetype'),
+         url('../font/FranklinGothic-Demi-webfont.svg#franklin_gothic_fsdemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: white;
+    color: #000000;
+    font-family: 'franklin_gothic_fsdemi' Arial, Helvetica, sans-serif;
+    }
+
+#ct {
+    position: fixed;
+    display: block;
+    bottom: 10px;
+    left: 20px;
+    font-size: 10px;
+    color: #000000;
+    font-family: 'franklin_gothic_fsdemi' Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    z-index: 1000;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    margin: 5px 0px 5px -10px;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;  
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;  
+}
+
+a:hover { 
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: black; 
+} 
+
+a:active { 
+    text-decoration: none;
+    border-bottom: 0;
+    color: black; 
+}
+
+::selection {
+background-color: yellow;
+color: #ffffff;
+}
+
+
+
+@media screen and (max-width: 36em) {
+    
+#ct {
+    position: fixed;
+    display: block;
+    bottom: 5px;
+    left: 10px;
+    font-size: 7px;
+    color: #000000;
+    font-family: 'franklin_gothic_fsdemi' Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    z-index: 1000;
+}
+
+.image {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    padding: 0;
+}
+
+
+}
+
+
+
+@media print {
+
+@page {
+  size: A4 portrait;  
+  margin: 0;
+}
+
+#ct {
+    position: absolute;
+    bottom: 2cm;
+    left: 1.8cm;
+    font-size: 10px;
+    color: #000000;
+    font-family: 'franklin_gothic_fsdemi' Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    z-index: 1000;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.noPrint {
+    display:none;
+  }
+
+}
+
+
+@media screen {
+
+  
+}
+
+  

@@ -12,7 +12,6 @@
 
 body {
     background-color: white;
-    color: #000000;
     font-family: 'franklin_gothic_fsdemi' Arial, Helvetica, sans-serif;
     }
 
@@ -25,7 +24,21 @@ body {
     color: #000000;
     font-family: 'franklin_gothic_fsdemi' Arial, Helvetica, sans-serif;
     text-transform: uppercase;
+    background: white;
     z-index: 1000;
+}
+
+#print {
+    position: fixed;
+    display: block;
+    bottom: 10px;
+    right: 20px;
+    font-size: 10px;
+    color: #000000;
+    font-family: 'franklin_gothic_fsdemi' Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background: yellow;
+    z-index: 2000;
 }
 
 img {
@@ -53,8 +66,8 @@ a:visited {
 
 a:hover { 
     text-decoration: none;
-    border-bottom: 1px solid black;
-    color: black; 
+    background: black;
+    color: white; 
 } 
 
 a:active { 
@@ -65,7 +78,7 @@ a:active {
 
 ::selection {
 background-color: yellow;
-color: #ffffff;
+color: #000000;
 }
 
 
@@ -73,15 +86,11 @@ color: #ffffff;
 @media screen and (max-width: 36em) {
     
 #ct {
-    position: fixed;
-    display: block;
-    bottom: 5px;
-    left: 10px;
-    font-size: 7px;
-    color: #000000;
-    font-family: 'franklin_gothic_fsdemi' Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    z-index: 1000;
+    display:none;
+}
+
+#print {
+    display:none;
 }
 
 .image {
@@ -91,7 +100,6 @@ color: #ffffff;
     margin: 5px;
     padding: 0;
 }
-
 
 }
 

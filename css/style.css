@@ -34,10 +34,10 @@ body {
     bottom: 10px;
     right: 20px;
     font-size: 10px;
-    color: #000000;
+    color: white;
     font-family: 'franklin_gothic_fsdemi' Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    background: yellow;
+    background: blue;
     z-index: 2000;
 }
 
@@ -66,7 +66,7 @@ a:visited {
 
 a:hover { 
     text-decoration: none;
-    background: black;
+    background: blue;
     color: white; 
 } 
 

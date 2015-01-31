@@ -130,6 +130,10 @@ color: #000000;
     padding: 0;
 }
 
+span#print {
+    display:none;
+}
+
 .noPrint {
     display:none;
   }

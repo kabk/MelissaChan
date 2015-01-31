@@ -2,18 +2,9 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="524.409px" height="708.662px" viewBox="0 0 524.409 708.662" style="enable-background:new 0 0 524.409 708.662;"
+	 width="524.409px" height="708.661px" viewBox="0 0 524.409 708.661" style="enable-background:new 0 0 524.409 708.661;"
 	 xml:space="preserve">
 <g>
-	<g>
-		<defs>
-			<rect id="SVGID_1_" x="-0.07" y="0.276" width="524.409" height="708.661"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-		</clipPath>
-		<polygon style="clip-path:url(#SVGID_2_);" points="-635.11,-71.724 -635.11,783.275 583.13,783.275 583.13,-71.724 
-			-635.11,-71.724 		"/>
-	</g>
+	<polygon points="0,0 0,708.661 524.409,708.661 524.409,0 0,0 	"/>
 </g>
 </svg>

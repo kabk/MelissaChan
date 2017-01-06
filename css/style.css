@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'franklin_gothic_fsdemi';
+    font-family: "franklin_gothic_fsdemi";
     src: url('../font/FranklinGothic-Demi-webfont.eot');
     src: url('../font/FranklinGothic-Demi-webfont.eot?#iefix') format('embedded-opentype'),
          url('../font/FranklinGothic-Demi-webfont.woff2') format('woff2'),
@@ -12,7 +12,7 @@
 
 body {
     background-color: white;
-    font-family: 'franklin_gothic_fsdemi' Arial, Helvetica, sans-serif;
+    font-family: "franklin_gothic_fsdemi", Arial, Helvetica, sans-serif;
     }
 
 #ct {
@@ -22,7 +22,7 @@ body {
     left: 20px;
     font-size: 10px;
     color: #000000;
-    font-family: 'franklin_gothic_fsdemi' Arial, Helvetica, sans-serif;
+    font-family: "franklin_gothic_fsdemi", Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     background: white;
     z-index: 1000;
@@ -35,7 +35,7 @@ body {
     right: 20px;
     font-size: 10px;
     color: white;
-    font-family: 'franklin_gothic_fsdemi' Arial, Helvetica, sans-serif;
+    font-family: "franklin_gothic_fsdemi", Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     background: blue;
     z-index: 2000;
@@ -56,24 +56,24 @@ img {
 
 a:link {
     text-decoration: none;
-    color: black;  
+    color: black;
 }
 
 a:visited {
     text-decoration: none;
-    color: black;  
+    color: black;
 }
 
-a:hover { 
+a:hover {
     text-decoration: none;
     background: blue;
-    color: white; 
-} 
+    color: white;
+}
 
-a:active { 
+a:active {
     text-decoration: none;
     border-bottom: 0;
-    color: black; 
+    color: black;
 }
 
 ::selection {
@@ -84,7 +84,7 @@ color: #000000;
 
 
 @media screen and (max-width: 36em) {
-    
+
 #ct {
     display:none;
 }
@@ -108,7 +108,7 @@ color: #000000;
 @media print {
 
 @page {
-  size: A4 portrait;  
+  size: A4 portrait;
   margin: 0;
 }
 
@@ -118,7 +118,7 @@ color: #000000;
     left: 1.8cm;
     font-size: 10px;
     color: #000000;
-    font-family: 'franklin_gothic_fsdemi' Arial, Helvetica, sans-serif;
+    font-family: "franklin_gothic_fsdemi", Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     z-index: 1000;
 }
@@ -143,7 +143,5 @@ span#print {
 
 @media screen {
 
-  
-}
 
-  
+}
